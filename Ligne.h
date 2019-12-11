@@ -11,7 +11,6 @@ class Ligne
 
    public:
       Ligne(Article *article=NULL, long quantite=0);
-
       Article * getArticle() const;
       long getQuantite() const;
       void setArticle(Article *article);
