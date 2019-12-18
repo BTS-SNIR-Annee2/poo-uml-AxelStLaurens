@@ -59,7 +59,7 @@ int Commande::getNbArticles() const
 
 void Commande::afficher()
 {
-	   cout << setfill(' ') << setw(3) << "Qte"; 
+	cout << setfill(' ') << setw(3) << "Qte"; 
    cout << "|" << setfill(' ') << setw(50) << "Description"; 
    cout << "|" << setfill(' ') << setw(8) << "Prix uni"; 
    cout << "|" << setfill(' ') << setw(15) << "Total\n";
